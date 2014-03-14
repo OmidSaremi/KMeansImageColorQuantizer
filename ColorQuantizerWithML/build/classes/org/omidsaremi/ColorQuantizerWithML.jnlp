@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp codebase="http://omidsaremi.org/MyApp" href="ColorQuantizerWithML.jnlp">
+    <information>
+        <title>Machine Learning Application</title>
+        <vendor>Omid Saremi</vendor>
+        <icon href="question6.jpg"/>
+            <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.7"/>
+        <jar href="ColorQuantizerWithML.jar"/>
+        <extension name="Help" href="Help.jnlp" />
+    </resources>
+    <security>
+        <all-permissions/> 
+    </security>
+    <application-desc main-class="org.omidsaremi.KMeansColorQuantizer"/>
+        <!-- Application Arguments -->
+    
+</jnlp>
